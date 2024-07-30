@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+.drp-dwn-list{
+    gap: 5%;
+}
+
+.toggle-week{
+    width: 8%;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.date-cnt{
+    width: 50%;
+}
+.date-cnt > span{
+    display: inline-block;
+    width: 200%;
+}
+
+.header-end{
+    gap: 5%;
+}
+
+tbody tr{
+    height: 13vh;
+    text-align: center;
+}
+td{
+    vertical-align: middle;
+    border: solid;
+}
+
+#shiftInput{
+    border: 1px solid rgba(139, 138, 138, 0.637);
+}
+
+.shift-form{
+    gap: 2rem;
+}
+
+.show{
+    background-color: rgba(0, 0, 0, 0.479);
+}
