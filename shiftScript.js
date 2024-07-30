@@ -154,6 +154,12 @@ function cellHandler(parentElement){
     }
 }
 
+$('.clear').click((e)=>{
+    localStorage.clear()
+    show_data()
+    location.reload()
+})
+
 $(".shift-save").click((e)=>{
     mainModal.classList.remove('show', 'd-flex', 'justify-content-center', 'align-items')
     
