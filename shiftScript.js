@@ -127,7 +127,6 @@ function cellHandler(parentElement){
     mainModal.classList.add('show', 'd-flex', 'justify-content-center', 'align-items-center')
 
     $('.modal-content')[0].style.height = 'auto'
-    alert(Boolean(!$('.shift-save')[0].id))
     
     if(!($('.shift-save')[0].id)){
         form_input.map((index,element) => {
