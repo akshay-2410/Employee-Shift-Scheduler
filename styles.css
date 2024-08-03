@@ -6,9 +6,10 @@ html::-webkit-scrollbar{
     display: none;
 }
 
-html{
+html, body{
     overflow-x: hidden !important;
 }
+
 
 .drp-dwn-list{
     gap: 5%;
@@ -16,6 +17,7 @@ html{
 .header{
     overflow-x: hidden;
     padding: 0;
+    width: 102vw;
 }
 
 .toggle-week{
@@ -63,11 +65,15 @@ table{
     min-width: 768px;
 }
 
+.table-section{
+    width: 102vw;
+}
+
 @media screen and (max-width:768px) {
     .toggle-week{
         height: 10% !important;
     }
-    th{
+    table{
         font-size: 10px !important;
     }
 }
