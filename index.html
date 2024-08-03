@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shift Calneder</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="shift.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -72,8 +73,8 @@
           </div>
         </div>
       </div>
-    <div class="header row p-2 mt-4">
-        <div class="col-3 d-flex drp-dwn-list">
+    <div class="header row p-md-2 mt-4">
+        <div class="mt-2 col-md-3 p-md-2 p-1   justify-content-between d-flex drp-dwn-list">
             <div class="dropdown">
                 <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Copy
@@ -93,7 +94,7 @@
                 
               </div>
         </div>
-        <div class="col-6 d-flex justify-content-around">
+        <div class="mt-2 col-md-6 p-md-2 p-1   d-flex justify-content-between">
             <div id = 'prev_btn' class="toggle-week bg-primary rounded material-symbols-outlined border h-100 d-flex align-items-center justify-content-center">
                 arrow_back_ios_new
             </div>
@@ -112,7 +113,7 @@
                 arrow_forward_ios
             </div>
         </div>
-        <div class="header-end col-3 d-flex">
+        <div class="header-end mt-2 col-md-3 p-md-2 p-1  justify-content-between d-flex">
             <div class="btn btn-primary "  data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Add Shifts
             </div>
@@ -127,8 +128,8 @@
         </div>
     </div>
 
-    <div class="table-section mt-5 border">
-        <table class="table table-bordered border border-secondary">
+    <div class="table-section mt-5  overflow-auto">
+        <table class="table table-bordered border border-secondary ">
             <thead>
                 <th class="bg-success" >Employees</th>
                 <th class="bg-success weekday" style="width: calc(100% / 8);">N/R</th>

@@ -6,8 +6,16 @@ html::-webkit-scrollbar{
     display: none;
 }
 
+html{
+    overflow-x: hidden !important;
+}
+
 .drp-dwn-list{
     gap: 5%;
+}
+.header{
+    overflow-x: hidden;
+    padding: 0;
 }
 
 .toggle-week{
@@ -15,6 +23,8 @@ html::-webkit-scrollbar{
     color: antiquewhite;
     cursor: pointer;
 }
+
+
 
 .date-cnt{
     width: 50%;
@@ -47,4 +57,14 @@ td{
 
 .show{
     background-color: rgba(0, 0, 0, 0.479);
+}
+
+table{
+    min-width: 1210px;
+}
+
+@media screen and (max-width:768px) {
+    .toggle-week{
+        height: 10% !important;
+    }
 }
