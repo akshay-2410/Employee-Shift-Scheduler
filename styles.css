@@ -60,11 +60,14 @@ td{
 }
 
 table{
-    min-width: 1210px;
+    min-width: 768px;
 }
 
 @media screen and (max-width:768px) {
     .toggle-week{
         height: 10% !important;
+    }
+    th{
+        font-size: 10px !important;
     }
 }
